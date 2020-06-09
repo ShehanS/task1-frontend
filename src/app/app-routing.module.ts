@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TimmerComponent } from './timmer/timmer.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'timmer', component: TimmerComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
