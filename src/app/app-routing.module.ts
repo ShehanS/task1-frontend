@@ -4,7 +4,7 @@ import { TimmerComponent } from './timmer/timmer.component';
 
 
 const routes: Routes = [
-  {path:'timmer', component: TimmerComponent}
+  {path:'', component: TimmerComponent}
 ];
 
 @NgModule({
